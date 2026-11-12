@@ -1,0 +1,38 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Large model files and checkpoints
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Local datasets
+datasets/
+*.csv
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
